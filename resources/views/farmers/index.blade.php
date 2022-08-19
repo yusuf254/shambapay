@@ -4,6 +4,10 @@
             {{ __('Farmers') }}
         </h2>
     </x-slot>
+
+    <div class="row">
+        <div class="col-12"></div>
+    </div>
     <div class="py-12">
 <button class="btn bottom-auto">Add Farmers</button>
     </div>

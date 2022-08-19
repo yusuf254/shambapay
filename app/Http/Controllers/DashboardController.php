@@ -33,9 +33,6 @@ class DashboardController extends Controller
 
 
     }
-    public function director(){
-    return view('dashboard.director');
-    }
 
     /**
      * Show the form for creating a new resource.
