@@ -13,7 +13,6 @@ class DashboardController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index(){
-
         if(Auth::user()->hasRole('admin')){
             return view('dashboard');
         }elseif(Auth::user()->hasRole('clerk')){
@@ -30,9 +29,9 @@ class DashboardController extends Controller
             return view('dashboard.customer');
         }
 
-
-
     }
+
+
 
     /**
      * Show the form for creating a new resource.
